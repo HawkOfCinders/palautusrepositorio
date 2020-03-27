@@ -1,0 +1,37 @@
+selain->palvelin: POST https://fullstack-exampleapp.herokuapp.com/new_note
+palvelin-->selain: HTML-koodi
+
+note over selain:
+Serveri refreshaa sivun.
+end note
+
+selain->palvelin: GET https://fullstack-exampleapp.herokuapp.com/notes
+palvelin-->selain: HTML-koodi
+
+note over selain:
+Serveri alkaa lähettää tarpeellisia tiedostoja
+selaimelle lähettämällä html-koodia.
+end note
+
+selain->palvelin: GET https://fullstack-exampleapp.herokuapp.com/main.css
+palvelin-->selain: main.css
+
+note over selain:
+Serveri antaa selaimelle CSS koodin.
+end note
+
+selain->palvelin: GET https://fullstack-exampleapp.herokuapp.com/main.js
+palvelin-->selain: main.js
+
+note over selain:
+Serveri antaa selaimelle js-koodia suoritettavaksi.
+end note
+
+selain->palvelin: GET https://fullstack-exampleapp.herokuapp.com/data.json
+palvelin-->selain: data.jason
+
+note over selain:
+Serveri antaa uuden että vanhat notet .json tiedostona.
+
+Selain saa sivun mudostettua käyttäjälle saamillaan tiedostoilla.
+end note

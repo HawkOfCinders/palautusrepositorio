@@ -1,0 +1,8 @@
+selain->palvelin: POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+palvelin-->selain: JSON-tiedosto {content: "xd", date: "2020-03-27T10:19:50.038Z"}
+
+note over selain:
+Nappia painattaessa palvelin antaa 
+viimeisimmän muutoksen mikä tulisi 
+tallentaa JSON-tiedoston perään.
+end note
